@@ -1,12 +1,16 @@
-# 25.01.2017
+
 #include <iostream>
 #include <string>
 using namespace std;
 int main()
 {
-   int a;
+   int a,b,c,m,n,k;
     
-    cin >> a;
+    cin >> a >> b >> c;
+    
+  m=a%2;
+  n=b%2;
+  k=c%2;
   
     
     if ((((m||n||k)==1) && ( (m&&n&&k)==0))) {
